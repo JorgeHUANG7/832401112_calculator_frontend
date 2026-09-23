@@ -7,7 +7,7 @@ user interface — button interaction, expression input, sending requests to
 the back end, and displaying the returned results / history / errors.
 
 > The back end lives in a **separate repository**:
-> `StudentID_calculator_backend` (see the blog for the link).
+> https://github.com/JorgeHUANG7/832401112_calculator_backend
 
 ## Project Introduction
 
