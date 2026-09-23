@@ -74,12 +74,11 @@ Then open `http://localhost:5500/index.html`.
 The back-end API address is configured in `src/js/calculator.js`:
 
 ```js
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = 'https://calculator-backend-oaoe.onrender.com';
 ```
 
-Change it to the deployed back-end URL when the back end is hosted
-remotely. The back end enables CORS for all origins, so any front-end
-address works.
+For local development, change it to `http://127.0.0.1:8000`. The deployed
+back end enables CORS for all origins, so any front-end address works.
 
 ## Connecting to the Back End
 
