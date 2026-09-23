@@ -18,10 +18,11 @@
 
 /**
  * Base URL of the back-end API.
- * Change this to the deployed back-end address when needed.
+ * Deployed backend: https://calculator-backend-oaoe.onrender.com
+ * For local development, change this to 'http://127.0.0.1:8000'.
  * @type {string}
  */
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = 'https://calculator-backend-oaoe.onrender.com';
 
 /** @type {string} */
 let expression = '';
