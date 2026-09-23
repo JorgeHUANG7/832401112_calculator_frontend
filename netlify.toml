@@ -1,0 +1,7 @@
+[build]
+  publish = "src"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "no-store"
